@@ -13,3 +13,33 @@
 .navbar h1{
     font-size: 30px;
 }
+.section1{
+    background:url(./images/codes.jpg);
+    background-size: cover;
+    color: white;
+
+}
+.details{
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.questions{
+    background:url(./images/backquiz.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.quiz{
+    background-color: #5991E6;
+    border: none;
+    border-radius: 20px;
+    padding: 50px 0 50px 50px;
+    margin: 30px;
+    color: white;
+}
