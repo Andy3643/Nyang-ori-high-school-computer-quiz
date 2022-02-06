@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    padding: 0 40px 0 40px;
+    font-size: 20px;
+}
+.navbar h1{
+    font-size: 30px;
+}
