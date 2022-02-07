@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <div class="navbar">
     <h1>NYANGO'RI HIGH SCHOOL</h1>
     <ul>
@@ -19,21 +20,30 @@
     </ul>
 </div>
 <div class="section1">
-    <h2>You have an opportunity to grow and develop your coding skills.</h2>
-    <p>Learn html, java script, java, <br>and python languages in our computer classes.</p>
-    <br><br><br><br><br><br><br><br><br><br><br><br><div class="subsec1">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eligendi laborum laudantium.</p>
+    <div class="intro">
+        <h2>You have an opportunity to grow,<br>and develop your coding skills.</h2>
+        <p>Learn html, java script, java, <br>and python languages in our computer classes.</p>
     </div>
-    <div class="subsec2">
+    <div id="subsec">
+     <div class="subsec1">
+         <img src="./images/books.png" alt="books" height="70px">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eligendi laborum laudantium.</p>
+     </div>
+    <div class="subsec1">
+        <img src="./images/compstudy.jpg" alt="computer" height="70px">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos sunt vero ut!</p>
     </div>
-    <div class="subsec3">
+    <div class="subsec1">
+        <img src="./images/graduate.png" alt="graduate" height="70px">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae voluptas corporis recusandae.</p>
     </div>
-    <div class="subsec4">
+    <div class="subsec1">
+        <img src="./images/mouse.png" alt="mouse" height="70px">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque non unde exercitationem.</p>
     </div>
+    </div>
 </div>
+    <!-- 
 <div class="centrediv">
     <h2>JavaScript</h2>
     <p>You have studied JavaScript course.<br>Its now time to access your progress in the course.</p>
@@ -66,9 +76,12 @@
         </select>
     </div>
 </div>
+<div class="startbutton">
+    <button onclick="quizarea()">Start Quiz</button>
+</div>
+<div id="quizarea">
 <div class="questions">
-    <h2>Start Quiz</h2>
-    <form>
+    <form name="javaquiz">
         <div class="quiz no1">
             <p>1. What are variables used for in JavaScript Programs?</p>
             <P><input type="radio" name="quiz1" id="quiz1" value="A">A. Varying randomly</P>
@@ -105,7 +118,7 @@
             <P><input type="radio" name="quiz5" id="quiz5" value="D">D. if (conditional expression is true)   {then execute this code>->}</P>
         </div>
         <div class="quiz no6">
-            <p>1. Which of the following functions is a valid type of function that javascript supports?</p>
+            <p>6. Which of the following functions is a valid type of function that javascript supports?</p>
             <P><input type="radio" name="quiz6" id="quiz6" value="A">A. named function</P>
             <P><input type="radio" name="quiz6" id="quiz6" value="B">B. anonymous function</P>
             <P><input type="radio" name="quiz6" id="quiz6" value="C">C. Both A and B</P>
@@ -141,8 +154,12 @@
         </div>
     </form>
     <div class="button2">
-        <button>SUBMIT</button>
+        <button onclick="scores()">SUBMIT</button>
     </div>
+</div>
+</div>
+<div id="score">
+    
 </div>
 
 
@@ -155,6 +172,6 @@
 
 
 
-
+<script src="script.js"></script>
 </body>
-</html>
+</html> 
