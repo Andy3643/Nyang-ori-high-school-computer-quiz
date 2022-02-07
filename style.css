@@ -56,8 +56,6 @@
     margin: 20px;
     color: white;
 }
-
-/*
 .questions{
     background:url(./images/backquiz.jpg);
     background-size: cover;
@@ -66,6 +64,7 @@
     flex-direction: column;
 
 }
+/*
 #quizarea{
     display: none;
 }
