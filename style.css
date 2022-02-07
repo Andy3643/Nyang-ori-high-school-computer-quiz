@@ -44,7 +44,6 @@
     color: brown;
     font-size: 25px;
 }
-/*
 .details{
     display: flex;
     flex-direction: column;
@@ -58,7 +57,7 @@
     color: white;
 }
 
-
+/*
 .questions{
     background:url(./images/backquiz.jpg);
     background-size: cover;
