@@ -1,11 +1,10 @@
 
-// function quizarea(){
-//     var showDiv = document.getElementById("quizarea");
-//     showDiv.style.display="block";
-//     var showDiv = document.getElementById("score");
-//     showDiv.style.display="none";
- 
-// }
+function quizarea(){
+   var showDiv = document.getElementById("quizarea");
+    showDiv.style.display="block";
+    var showDiv = document.getElementById("score");
+    showDiv.style.display="none";
+}
 
 
 // function scores(){
