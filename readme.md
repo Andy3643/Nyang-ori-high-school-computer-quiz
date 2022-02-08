@@ -15,6 +15,7 @@
 
 ### Description
 This website is designed for a high school computer class club. the website willl be a quiz board to test the students on the content they learnt on javascript. Through the website, the accesors will be able to grade the students and single out those to proceeed to the next class and those to repeat the class.
+The website design was sketched using miro and can be accessed at:https://miro.com/app/board/uXjVOPobZ5Q=/
 ### Installation
 The website can be accesed via the link:https://andy3643.github.io/Nyang-ori-high-school-computer-quiz/ 
 ### Requirements
