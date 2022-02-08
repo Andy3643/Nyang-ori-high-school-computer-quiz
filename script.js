@@ -56,13 +56,13 @@ function scores(){
 
     var showMarks= document.getElementById("score");
     showMarks.textContent=totalScore;
-       if (totalScore<=5){
+if (totalScore<=5){
         showMarks.innerText="your score is " + totalScore +" ,this is poor. Kindly redo the test!";
      }
-//     else if (totalScore>5 && totalScore<8){
-//         showMarks.innerText="your score is " + totalScore +" ,you have performed avaragely well!";
-//     }
-//      else {showMarks.innerText="Congratulations! You have scored " +totalScore +". This is excelent !"}
-// }
+else if (totalScore>5 && totalScore<8){
+      showMarks.innerText="your score is " + totalScore +" ,you have performed avaragely well!";
+    }
+     else {showMarks.innerText="Congratulations! You have scored " +totalScore +". This is excelent !"}
+    }
 
 
